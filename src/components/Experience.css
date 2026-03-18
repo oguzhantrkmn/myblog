@@ -1,0 +1,110 @@
+.exp-timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-left: 1rem;
+}
+
+.exp-item {
+    display: flex;
+    gap: 2rem;
+}
+
+.exp-tracker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 20px;
+}
+
+.tracker-dot {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: var(--brand-secondary);
+    box-shadow: 0 0 10px var(--brand-secondary);
+    z-index: 2;
+    margin-top: 1.5rem;
+}
+
+.tracker-line {
+    position: absolute;
+    top: 2rem;
+    bottom: -4rem;
+    width: 1px;
+    background: linear-gradient(to bottom, var(--brand-secondary), var(--border-light));
+    z-index: 1;
+}
+
+.exp-card {
+    width: 100%;
+}
+
+.exp-head {
+    margin-bottom: 1.5rem;
+}
+
+.exp-date {
+    color: var(--brand-primary);
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.exp-role {
+    font-size: 1.7rem;
+    color: #fff;
+    margin: 0.5rem 0;
+}
+
+.exp-company {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    font-weight: 500;
+}
+
+.exp-tasks {
+    list-style: none;
+    margin-bottom: 2rem;
+}
+
+.exp-tasks li {
+    color: var(--text-secondary);
+    margin-bottom: 0.8rem;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.exp-tasks li::before {
+    content: '→';
+    position: absolute;
+    left: 0;
+    color: var(--text-muted);
+}
+
+.exp-foot {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    padding-top: 1.5rem;
+    border-top: 1px dashed var(--border-light);
+}
+
+.exp-pill {
+    font-size: 0.75rem;
+    background: var(--surface-2);
+    color: var(--text-secondary);
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+}
+
+@media (max-width: 600px) {
+    .exp-timerline {
+        padding-left: 0;
+    }
+
+    .exp-item {
+        gap: 1rem;
+    }
+}

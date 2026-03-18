@@ -1,0 +1,65 @@
+.tech-bento-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.tech-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-top: 2px solid transparent;
+    transition: border-color 0.4s ease, transform 0.4s ease;
+}
+
+.tech-card:hover {
+    border-top-color: var(--brand-primary);
+}
+
+.tech-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.tech-icon {
+    background: var(--surface-2);
+    padding: 1rem;
+    border-radius: 12px;
+    color: #fff;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.tech-card:hover .tech-icon {
+    color: var(--brand-primary);
+    transform: rotate(-10deg);
+}
+
+.tech-cat {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.tech-skills-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+}
+
+.skill-pill {
+    padding: 0.5rem 0.8rem;
+    background: transparent;
+    border: 1px solid var(--border-light);
+    border-radius: 6px;
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    transition: all 0.3s;
+}
+
+.skill-pill:hover {
+    background: var(--surface-2);
+    color: #fff;
+    border-color: var(--border-hover);
+}

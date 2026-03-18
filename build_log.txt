@@ -1,0 +1,68 @@
+﻿
+> blog@0.0.0 build
+> vite build
+
+[36mvite v8.0.0 [32mbuilding client environment for production...[36m[39m
+[2K
+transforming...Ô£ô 2145 modules transformed.
+node.exe : [31mÔ£ù[39m Build failed in 324ms
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([31mÔ£ù[39m Build failed in 324 
+   ms:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[31merror during build:
+[31mBuild failed with 1 error:
+
+[31m[builtin:vite-transform] Error:[0m Unexpected JSX expression
+    [38;5;246mÔò¡[0m[38;5;246mÔöÇ[0m[38;5;246m[[0m src/data.js:12:13 [38
+;5;246m][0m
+    [38;5;246mÔöé[0m
+ [38;5;246m12 Ôöé[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;2
+49m [0m[38;5;249m{[0m[38;5;249m [0m[38;5;249mi[0m[38;5;249mc[0m[38;5;
+249mo[0m[38;5;249mn[0m[38;5;249m:[0m[38;5;249m [0m<Linkedin size={20} />
+[38;5;249m,[0m[38;5;249m [0m[38;5;249ml[0m[38;5;249mi[0m[38;5;249mn[0
+m[38;5;249mk[0m[38;5;249m:[0m[38;5;249m [0m[38;5;249m"[0m[38;5;249mh[
+0m[38;5;249mt[0m[38;5;249mt[0m[38;5;249mp[0m[38;5;249ms[0m[38;5;249m:
+[0m[38;5;249m/[0m[38;5;249m/[0m[38;5;249mw[0m[38;5;249mw[0m[38;5;249mw
+[0m[38;5;249m.[0m[38;5;249ml[0m[38;5;249mi[0m[38;5;249mn[0m[38;5;249m
+k[0m[38;5;249me[0m[38;5;249md[0m[38;5;249mi[0m[38;5;249mn[0m[38;5;249
+m.[0m[38;5;249mc[0m[38;5;249mo[0m[38;5;249mm[0m[38;5;249m/[0m[38;5;24
+9mi[0m[38;5;249mn[0m[38;5;249m/[0m[38;5;249mo[0m[38;5;249m─ş[0m[38;5;
+249mu[0m[38;5;249mz[0m[38;5;249mh[0m[38;5;249ma[0m[38;5;249mn[0m[38;5
+;249m-[0m[38;5;249mt[0m[38;5;249m├╝[0m[38;5;249mr[0m[38;5;249mk[0m[38
+;5;249mm[0m[38;5;249me[0m[38;5;249mn[0m[38;5;249m-[0m[38;5;249m3[0m[3
+8;5;249m0[0m[38;5;249m3[0m[38;5;249m0[0m[38;5;249m9[0m[38;5;249m0[0m[
+38;5;249m2[0m[38;5;249m3[0m[38;5;249m6[0m[38;5;249m/[0m[38;5;249m"[0m
+[38;5;249m,[0m[38;5;249m [0m[38;5;249ml[0m[38;5;249ma[0m[38;5;249mb[0m
+[38;5;249me[0m[38;5;249ml[0m[38;5;249m:[0m[38;5;249m [0m[38;5;249m"[0
+m[38;5;249mL[0m[38;5;249mi[0m[38;5;249mn[0m[38;5;249mk[0m[38;5;249me[
+0m[38;5;249md[0m[38;5;249mI[0m[38;5;249mn[0m[38;5;249m"[0m[38;5;249m 
+[0m[38;5;249m}[0m[38;5;249m,[0m
+ [38;5;240m   Ôöé[0m             ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔö¼ÔöÇÔöÇÔö
+ÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ  
+ [38;5;240m   Ôöé[0m                        Ôò░ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ
+ÔöÇÔöÇ 
+ [38;5;240m   Ôöé[0m 
+ [38;5;240m   Ôöé[0m [38;5;115mHelp[0m: JSX syntax is disabled and should b
+e enabled via the parser options
+[38;5;246mÔöÇÔöÇÔöÇÔöÇÔò»[0m
+[31m
+    at aggregateBindingErrorsIntoJsError (file:///C:/Projeler/Web/websiteblog/b
+log/node_modules/rolldown/dist/shared/error-CP8smW_P.mjs:48:18)
+    at unwrapBindingResult (file:///C:/Projeler/Web/websiteblog/blog/node_modul
+es/rolldown/dist/shared/error-CP8smW_P.mjs:18:128)
+    at #build (file:///C:/Projeler/Web/websiteblog/blog/node_modules/rolldown/d
+ist/shared/rolldown-build-4YnQkA76.mjs:3311:34)
+    at async buildEnvironment (file:///C:/Projeler/Web/websiteblog/blog/node_mo
+dules/vite/dist/node/chunks/node.js:32794:64)
+    at async Object.build (file:///C:/Projeler/Web/websiteblog/blog/node_module
+s/vite/dist/node/chunks/node.js:33216:19)
+    at async Object.buildApp (file:///C:/Projeler/Web/websiteblog/blog/node_mod
+ules/vite/dist/node/chunks/node.js:33213:153)
+    at async CAC.<anonymous> (file:///C:/Projeler/Web/websiteblog/blog/node_mod
+ules/vite/dist/node/cli.js:778:3) {
+  errors: [Getter/Setter]
+}[39m
