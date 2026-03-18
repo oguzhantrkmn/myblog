@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Navbar from './components/Navbar';
-import Hero from './components/Hero';
+import ModernHero from './components/ModernHero';
 import About from './components/About';
 import TechStack from './components/TechStack';
 import Experience from './components/Experience';
@@ -32,7 +32,7 @@ function App() {
 
       <main className="app-main">
         <Navbar />
-        <Hero />
+        <ModernHero />
         <About />
         <TechStack />
         <Experience />

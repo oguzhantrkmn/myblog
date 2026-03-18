@@ -5,7 +5,7 @@ import {
 } from 'lucide-react';
 
 export const HERO_DATA = {
-  greeting: "👋 Merhaba, ben Oğuzhan Türkmen",
+  greeting: "",
   role: "Mobile Developer & Web Developer",
   description: "Kendi projelerini geliştiren, problem çözmeye odaklı bir yazılımcı",
   socials: [

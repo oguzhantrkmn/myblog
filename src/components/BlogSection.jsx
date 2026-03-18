@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { BLOG_CONTENT } from '../data';
 import './BlogSection.css';
-import { ArrowUpRight } from 'lucide-react';
+import { ArrowUpRight, Mail } from 'lucide-react';
 
 const BlogSection = () => {
     return (
@@ -41,7 +41,9 @@ const BlogSection = () => {
                         <h2>"{BLOG_CONTENT.mission}"</h2>
                         <div className="mission-footer">
                             <p>Öğrendiklerimi ve tecrübelerimi inşa sürecimde açıkça paylaşıyorum.</p>
-                            <button className="read-btn mono">Oku <ArrowUpRight size={16} /></button>
+                            <a href="mailto:oguzhantrkmn077@gmail.com" className="read-btn mono" style={{ textDecoration: 'none', display: 'inline-flex', alignItems: 'center', gap: '8px' }}>
+                                İletişime Geç <Mail size={16} />
+                            </a>
                         </div>
                     </div>
                 </div>
