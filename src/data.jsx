@@ -38,7 +38,7 @@ export const TECH_STACK = [
   },
   {
     category: "⚙️ Framework / Teknolojiler",
-    skills: ["React.js", "Node.js (Express.js)", "Android Dev (Java/Kotlin)", "RESTful API", "Basic .NET/C# Backend"],
+    skills: ["React.js", "Node.js (Express.js)", "Android Dev (Flutter,React Native)", "RESTful API", "Basic .NET/C# Backend"],
     icon: <Terminal size={24} />
   },
   {
